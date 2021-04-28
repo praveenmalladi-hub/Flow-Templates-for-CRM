@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_template_input_var">
+    <sys_app_template_input_var action="DELETE">
+        <default/>
+        <description/>
+        <flow_input_variable/>
+        <mandatory>false</mandatory>
+        <name>file_description</name>
+        <sys_class_name>sys_app_template_input_var</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-17 11:48:25</sys_created_on>
+        <sys_id>e8190dc8c383201054ffca568640ddc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>file_description</sys_name>
+        <sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
+        <sys_update_name>sys_app_template_input_var_e8190dc8c383201054ffca568640ddc6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-17 11:48:25</sys_updated_on>
+        <template display_value="FT - Create Opportunity in Microsoft Dynamics from the Service Catalog">b5dd2088c303201054ffca568640dd0a</template>
+        <type>string</type>
+    </sys_app_template_input_var>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</application>
+        <file_path/>
+        <instance_id>d01f7b0dc332201054ffca568640ddd1</instance_id>
+        <instance_name>unregistered</instance_name>
+        <name>sys_app_template_input_var_e8190dc8c383201054ffca568640ddc6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_template_input_var"><sys_app_template_input_var action="INSERT_OR_UPDATE"><default/><description/><flow_input_variable/><mandatory>false</mandatory><name>file_description</name><sys_class_name>sys_app_template_input_var</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-17 11:48:25</sys_created_on><sys_id>e8190dc8c383201054ffca568640ddc6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>file_description</sys_name><sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package><sys_policy/><sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope><sys_update_name>sys_app_template_input_var_e8190dc8c383201054ffca568640ddc6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-17 11:48:25</sys_updated_on><template display_value="FT - Create Opportunity in Microsoft Dynamics from the Service Catalog">b5dd2088c303201054ffca568640dd0a</template><type>string</type></sys_app_template_input_var></record_update>]]></payload>
+        <payload_hash>-192604750</payload_hash>
+        <record_name>file_description</record_name>
+        <reverted_from/>
+        <source>31672c44c303201054ffca568640dd18</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-17 11:48:59</sys_created_on>
+        <sys_id>2539cdc8c383201054ffca568640ddbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17840047dab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-17 11:48:59</sys_updated_on>
+        <type>Template Input Variable</type>
+        <update_guid>69194dc86d83201073a78da1f80b6125</update_guid>
+        <update_guid_history>69194dc86d83201073a78da1f80b6125:1947094262,69194dc86d83201073a78da1f80b6125:1947094262</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-17 11:49:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_template_input_var">sys_app_template_input_var</sys_db_object>
+        <sys_id>65ec999f9d1c4cacaedbe40dd3fbc790</sys_id>
+        <sys_metadata>e8190dc8c383201054ffca568640ddc6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>file_description</sys_name>
+        <sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
+        <sys_scope_delete display_value="CRM Flow Template">0e9b289512374b009792eadaf7e09000</sys_scope_delete>
+        <sys_update_name>sys_app_template_input_var_e8190dc8c383201054ffca568640ddc6</sys_update_name>
+        <sys_update_version display_value="sys_app_template_input_var_e8190dc8c383201054ffca568640ddc6">2539cdc8c383201054ffca568640ddbb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-17 11:49:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

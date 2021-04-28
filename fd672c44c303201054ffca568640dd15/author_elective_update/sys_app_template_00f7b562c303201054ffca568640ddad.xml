@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_template">
+    <sys_app_template action="DELETE">
+        <active>true</active>
+        <create_app>false</create_app>
+        <flow display_value="Object Template - Create a Microsoft Dynamics Case from the Service Catalog">3908f562c303201054ffca568640dd6e</flow>
+        <name>Create a Microsoft Dynamics Case from the Service Catalog</name>
+        <sys_class_name>sys_app_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-25 09:38:20</sys_created_on>
+        <sys_id>00f7b562c303201054ffca568640ddad</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Create a Microsoft Dynamics Case from the Service Catalog</sys_name>
+        <sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
+        <sys_update_name>sys_app_template_00f7b562c303201054ffca568640ddad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-26 11:01:42</sys_updated_on>
+        <type display_value="Stand-Alone">8e4f08a05b03101083f30f216581c700</type>
+        <ux_framework_component display_value="sn-create-ms-dynamics-case-from-catalog-wizard">0338f962c303201054ffca568640dd65</ux_framework_component>
+    </sys_app_template>
+    <sys_translated_text action="DELETE" query="documentkey=00f7b562c303201054ffca568640ddad"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</application>
+        <file_path/>
+        <instance_id>d01f7b0dc332201054ffca568640ddd1</instance_id>
+        <instance_name>unregistered</instance_name>
+        <name>sys_app_template_00f7b562c303201054ffca568640ddad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_template"><sys_app_template action="INSERT_OR_UPDATE"><active>true</active><create_app>false</create_app><flow display_value="Object Template - Create a Microsoft Dynamics Case from the Service Catalog">3908f562c303201054ffca568640dd6e</flow><name>Create a Microsoft Dynamics Case from the Service Catalog</name><sys_class_name>sys_app_template</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-25 09:38:20</sys_created_on><sys_id>00f7b562c303201054ffca568640ddad</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Create a Microsoft Dynamics Case from the Service Catalog</sys_name><sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package><sys_policy/><sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope><sys_update_name>sys_app_template_00f7b562c303201054ffca568640ddad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-26 11:01:42</sys_updated_on><type display_value="Stand-Alone">8e4f08a05b03101083f30f216581c700</type><ux_framework_component display_value="sn-create-ms-dynamics-case-from-catalog-wizard">0338f962c303201054ffca568640dd65</ux_framework_component></sys_app_template><sys_translated_text action="delete_multiple" query="documentkey=00f7b562c303201054ffca568640ddad"/></record_update>]]></payload>
+        <payload_hash>-1337294348</payload_hash>
+        <record_name>Create a Microsoft Dynamics Case from the Service Catalog</record_name>
+        <reverted_from/>
+        <source>6a77b162c303201054ffca568640dd0a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-26 11:01:42</sys_created_on>
+        <sys_id>e8b49f7ec303201054ffca568640dd7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1786e326efc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-26 11:01:42</sys_updated_on>
+        <type>Template</type>
+        <update_guid>64b49f7ee20320106dd41982b242907b</update_guid>
+        <update_guid_history>64b49f7ee20320106dd41982b242907b:-1337294348,f0a4db7e0f032010e8982a881fa65f6b:-1497432851,16f96a72f4432010e8603d19a8e23d68:-1337294348,65e9e272de432010b7ea5ba892420499:-1497432851,83b9daf21a0320107f8bf26f25b31a78:-1337294348,1ca9d6f2d603201037420785feb1f914:-1497432851,cb8496a67a432010c4976fe54ad16363:-1337294348,2498bd62f6032010740445bc09e9a052:-1497432851,8208f5622d0320102f490ef0e28bdc88:-2031923752</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-29 04:49:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_template">sys_app_template</sys_db_object>
+        <sys_id>13bfe500b69a4cdd89a6c861a2b6ca71</sys_id>
+        <sys_metadata>00f7b562c303201054ffca568640ddad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a Microsoft Dynamics Case from the Service Catalog</sys_name>
+        <sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
+        <sys_scope_delete display_value="CRM Flow Template">0e9b289512374b009792eadaf7e09000</sys_scope_delete>
+        <sys_update_name>sys_app_template_00f7b562c303201054ffca568640ddad</sys_update_name>
+        <sys_update_version display_value="sys_app_template_00f7b562c303201054ffca568640ddad">e8b49f7ec303201054ffca568640dd7b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-29 04:49:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

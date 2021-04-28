@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_template_detail">
+    <sys_app_template_detail action="DELETE">
+        <additional_uses/>
+        <author>ServiceNow</author>
+        <data_image/>
+        <detailed_description>This template will create a new case in Dynamics when a request is submitted from the Service Catalog</detailed_description>
+        <function_type_list/>
+        <header_background_color/>
+        <header_image/>
+        <hero_image_1/>
+        <hero_image_2/>
+        <hero_image_3/>
+        <how_was_built/>
+        <icon/>
+        <metadata_list/>
+        <schema_image/>
+        <short_description/>
+        <sys_class_name>sys_app_template_detail</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-25 09:38:22</sys_created_on>
+        <sys_id>0e08f562c303201054ffca568640dd84</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
+        <sys_update_name>sys_app_template_detail_0e08f562c303201054ffca568640dd84</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-25 09:54:06</sys_updated_on>
+        <template display_value="Create a Microsoft Dynamics Case from the Service Catalog">00f7b562c303201054ffca568640ddad</template>
+    </sys_app_template_detail>
+    <sys_translated_text action="DELETE" query="documentkey=0e08f562c303201054ffca568640dd84"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</application>
+        <file_path/>
+        <instance_id>d01f7b0dc332201054ffca568640ddd1</instance_id>
+        <instance_name>unregistered</instance_name>
+        <name>sys_app_template_detail_0e08f562c303201054ffca568640dd84</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_template_detail"><sys_app_template_detail action="INSERT_OR_UPDATE"><additional_uses/><author>ServiceNow</author><data_image/><detailed_description>This template will create a new case in Dynamics when a request is submitted from the Service Catalog</detailed_description><function_type_list/><header_background_color/><header_image/><hero_image_1/><hero_image_2/><hero_image_3/><how_was_built/><icon/><metadata_list/><schema_image/><short_description/><sys_class_name>sys_app_template_detail</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-25 09:38:22</sys_created_on><sys_id>0e08f562c303201054ffca568640dd84</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package><sys_policy/><sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope><sys_update_name>sys_app_template_detail_0e08f562c303201054ffca568640dd84</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-25 09:54:06</sys_updated_on><template display_value="Create a Microsoft Dynamics Case from the Service Catalog">00f7b562c303201054ffca568640ddad</template></sys_app_template_detail><sys_translated_text action="delete_multiple" query="documentkey=0e08f562c303201054ffca568640dd84"/></record_update>]]></payload>
+        <payload_hash>1291514157</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6a77b162c303201054ffca568640dd0a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-25 09:54:06</sys_created_on>
+        <sys_id>60ab7126c303201054ffca568640dd3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17868ce2eda0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-25 09:54:06</sys_updated_on>
+        <type>Template Details</type>
+        <update_guid>e8ab712608032010dda90c54b169203a</update_guid>
+        <update_guid_history>e8ab712608032010dda90c54b169203a:1291514157,ca08f5628a03201020c57423c9715b86:682673616</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-29 04:49:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_template_detail">sys_app_template_detail</sys_db_object>
+        <sys_id>09ee7598670a49b78bbd7116eecad639</sys_id>
+        <sys_metadata>0e08f562c303201054ffca568640dd84</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
+        <sys_scope_delete display_value="CRM Flow Template">0e9b289512374b009792eadaf7e09000</sys_scope_delete>
+        <sys_update_name>sys_app_template_detail_0e08f562c303201054ffca568640dd84</sys_update_name>
+        <sys_update_version display_value="sys_app_template_detail_0e08f562c303201054ffca568640dd84">60ab7126c303201054ffca568640dd3b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-29 04:49:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

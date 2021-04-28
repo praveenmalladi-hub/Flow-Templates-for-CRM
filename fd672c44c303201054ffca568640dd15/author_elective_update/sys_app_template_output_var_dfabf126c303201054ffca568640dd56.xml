@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_template_output_var">
+    <sys_app_template_output_var action="DELETE">
+        <default/>
+        <description>output</description>
+        <flow_output_variable display_value="output">91bbf126c303201054ffca568640ddcc</flow_output_variable>
+        <name>output</name>
+        <sys_class_name>sys_app_template_output_var</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-25 09:54:26</sys_created_on>
+        <sys_id>dfabf126c303201054ffca568640dd56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>output</sys_name>
+        <sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
+        <sys_update_name>sys_app_template_output_var_dfabf126c303201054ffca568640dd56</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-25 09:54:26</sys_updated_on>
+        <template display_value="Create a Microsoft Dynamics Case from the Service Catalog">00f7b562c303201054ffca568640ddad</template>
+        <type>string</type>
+    </sys_app_template_output_var>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</application>
+        <file_path/>
+        <instance_id>d01f7b0dc332201054ffca568640ddd1</instance_id>
+        <instance_name>unregistered</instance_name>
+        <name>sys_app_template_output_var_dfabf126c303201054ffca568640dd56</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_template_output_var"><sys_app_template_output_var action="INSERT_OR_UPDATE"><default/><description>output</description><flow_output_variable display_value="output">91bbf126c303201054ffca568640ddcc</flow_output_variable><name>output</name><sys_class_name>sys_app_template_output_var</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-25 09:54:26</sys_created_on><sys_id>dfabf126c303201054ffca568640dd56</sys_id><sys_mod_count>0</sys_mod_count><sys_name>output</sys_name><sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package><sys_policy/><sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope><sys_update_name>sys_app_template_output_var_dfabf126c303201054ffca568640dd56</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-25 09:54:26</sys_updated_on><template display_value="Create a Microsoft Dynamics Case from the Service Catalog">00f7b562c303201054ffca568640ddad</template><type>string</type></sys_app_template_output_var></record_update>]]></payload>
+        <payload_hash>1007646611</payload_hash>
+        <record_name>output</record_name>
+        <reverted_from/>
+        <source>6a77b162c303201054ffca568640dd0a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-25 09:54:26</sys_created_on>
+        <sys_id>65bbf126c303201054ffca568640dde8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17868ce7f7a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-25 09:54:26</sys_updated_on>
+        <type>Template Output Variable</type>
+        <update_guid>adbbf126560320102506fdaf53a4bbe7</update_guid>
+        <update_guid_history>adbbf126560320102506fdaf53a4bbe7:1007646611</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-29 04:49:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_template_output_var">sys_app_template_output_var</sys_db_object>
+        <sys_id>0944e8584d5a44908e6ee6c38f599900</sys_id>
+        <sys_metadata>dfabf126c303201054ffca568640dd56</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>output</sys_name>
+        <sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
+        <sys_scope_delete display_value="CRM Flow Template">0e9b289512374b009792eadaf7e09000</sys_scope_delete>
+        <sys_update_name>sys_app_template_output_var_dfabf126c303201054ffca568640dd56</sys_update_name>
+        <sys_update_version display_value="sys_app_template_output_var_dfabf126c303201054ffca568640dd56">65bbf126c303201054ffca568640dde8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-29 04:49:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

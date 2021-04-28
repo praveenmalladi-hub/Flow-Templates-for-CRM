@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_template_input_var">
+    <sys_app_template_input_var action="DELETE">
+        <default/>
+        <description/>
+        <flow_input_variable/>
+        <mandatory>false</mandatory>
+        <name>trigger_table</name>
+        <sys_class_name>sys_app_template_input_var</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-17 11:06:41</sys_created_on>
+        <sys_id>4f7f70008743201087da4b3de8cb0bd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>trigger_table</sys_name>
+        <sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
+        <sys_update_name>sys_app_template_input_var_4f7f70008743201087da4b3de8cb0bd4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-17 11:06:41</sys_updated_on>
+        <template display_value="Create a Microsoft Dynamics Case when a record is created">557f70008743201087da4b3de8cb0b13</template>
+        <type>string</type>
+    </sys_app_template_input_var>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</application>
+        <file_path/>
+        <instance_id>d01f7b0dc332201054ffca568640ddd1</instance_id>
+        <instance_name>unregistered</instance_name>
+        <name>sys_app_template_input_var_4f7f70008743201087da4b3de8cb0bd4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_template_input_var"><sys_app_template_input_var action="INSERT_OR_UPDATE"><default/><description/><flow_input_variable/><mandatory>false</mandatory><name>trigger_table</name><sys_class_name>sys_app_template_input_var</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-17 11:06:41</sys_created_on><sys_id>4f7f70008743201087da4b3de8cb0bd4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>trigger_table</sys_name><sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package><sys_policy/><sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope><sys_update_name>sys_app_template_input_var_4f7f70008743201087da4b3de8cb0bd4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-17 11:06:41</sys_updated_on><template display_value="Create a Microsoft Dynamics Case when a record is created">557f70008743201087da4b3de8cb0b13</template><type>string</type></sys_app_template_input_var></record_update>]]></payload>
+        <payload_hash>388681293</payload_hash>
+        <record_name>trigger_table</record_name>
+        <reverted_from/>
+        <source>acba6d80c303201054ffca568640dd62</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 11:13:50</sys_created_on>
+        <sys_id>77ad4dc5c323201054ffca568640ddf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178d01660cb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 11:13:50</sys_updated_on>
+        <type>Template Input Variable</type>
+        <update_guid>f3ad4dc5ac2320100e9a25fd13018ff9</update_guid>
+        <update_guid_history>f3ad4dc5ac2320100e9a25fd13018ff9:0,1e5805c147232010f016818d87eb373c:1876225518</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 11:13:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_template_input_var">sys_app_template_input_var</sys_db_object>
+        <sys_id>73be69d4965349a48b3faf7b8cc7e2b9</sys_id>
+        <sys_metadata>4f7f70008743201087da4b3de8cb0bd4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>trigger_table</sys_name>
+        <sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
+        <sys_scope_delete display_value="CRM Flow Template">0e9b289512374b009792eadaf7e09000</sys_scope_delete>
+        <sys_update_name>sys_app_template_input_var_4f7f70008743201087da4b3de8cb0bd4</sys_update_name>
+        <sys_update_version display_value="sys_app_template_input_var_4f7f70008743201087da4b3de8cb0bd4">77ad4dc5c323201054ffca568640ddf9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 11:13:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

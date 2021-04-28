@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_template_input_var">
+    <sys_app_template_input_var action="INSERT_OR_UPDATE">
+        <default/>
+        <description/>
+        <flow_input_variable display_value="catalog_item">0bc1bd84c303201054ffca568640ddf2</flow_input_variable>
+        <mandatory>false</mandatory>
+        <name>catalog_item</name>
+        <sys_class_name>sys_app_template_input_var</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-17 14:46:19</sys_created_on>
+        <sys_id>c1b1bd84c303201054ffca568640ddfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalog_item</sys_name>
+        <sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
+        <sys_update_name>sys_app_template_input_var_c1b1bd84c303201054ffca568640ddfd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-17 14:46:19</sys_updated_on>
+        <template display_value="Create Opportunity in Microsoft Dynamics from the Service Catalog">2e1e2d04c303201054ffca568640dd0d</template>
+        <type>string</type>
+    </sys_app_template_input_var>
+</record_update>
