@@ -13,7 +13,7 @@
         <ih_action>false</ih_action>
         <internal_name>update_ft__create_case_in_microsoft_dynamics_from_the_service_catalog</internal_name>
         <label_cache>[{"name":"{{action.flow_scope_sys_id}}","label":"action➛flow_scope_sys_id","type":"action","ref":""},{"name":"{{action.new_flow_sys_id}}","label":"action➛new_flow_sys_id","type":"action","ref":""},{"name":"{{action.ms_connection}}","label":"action➛ms_connection","type":"action","ref":""},{"name":"{{action.catalog_item}}","label":"action➛catalog_item","type":"action","ref":""},{"name":"{{action.customer_type}}","label":"action➛customer_type","type":"action","ref":""},{"name":"{{action.case_type}}","label":"action➛case_type","type":"action","ref":""},{"name":"{{action.is_escalated}}","label":"action➛is_escalated","type":"action","ref":""},{"name":"{{action.priority}}","label":"action➛priority","type":"action","ref":""}]</label_cache>
-        <latest_snapshot>35b935f3c303201054ffca568640dd4b</latest_snapshot>
+        <latest_snapshot>a895b907c333201054ffca568640dd64</latest_snapshot>
         <master_snapshot>c4f6ceeac303201054ffca568640dd25</master_snapshot>
         <name>Update FT - Create Case in Microsoft Dynamics from the Service Catalog</name>
         <natlang/>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2631062ac303201054ffca568640ddb9</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Update FT - Create Case in Microsoft Dynamics from the Service Catalog</sys_name>
         <sys_overrides/>
         <sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_2631062ac303201054ffca568640ddb9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-29 06:58:08</sys_updated_on>
+        <sys_updated_on>2021-05-03 05:31:40</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -56,10 +56,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-25 10:43:18</sys_created_on>
         <sys_id>45e68eeac303201054ffca568640dd38</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-29 06:58:04</sys_updated_on>
+        <sys_updated_on>2021-05-03 05:31:35</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=45e68eeac303201054ffca568640dd38"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -84,9 +84,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-25 10:43:18</sys_created_on>
         <sys_id>15e68eeac303201054ffca568640dd74</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-29 06:58:04</sys_updated_on>
+        <sys_updated_on>2021-05-03 05:31:35</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var inputScope = inputs.flow_scope_sys_id;
     var newFlow = inputs.new_flow_sys_id;
@@ -103,13 +103,14 @@
    //Update the customer Type 
     sn_flow.FlowTemplates.updateFlowActions(newFlow,'2', 'customer_type', customerType);
   
-  //Update the caseType 
+  //Update the caseType
+ 
     sn_flow.FlowTemplates.updateFlowActions(newFlow,'2', 'case_type', caseType);
   
   //Update the isEscalated 
     sn_flow.FlowTemplates.updateFlowActions(newFlow,'2', 'is_escalated', isEscalated);
   
-  //Update the prior 
+  //Update the prior
     sn_flow.FlowTemplates.updateFlowActions(newFlow,'2', 'priority', prior);
   
     new global.FlowTemplatesHelper().activateConnection(connection);
@@ -1777,17 +1778,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Update FT - Create Case in Microsoft Dynamics from the Service Catalog">2631062ac303201054ffca568640ddb9</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"f0f6022ec303201054ffca568640dd31","name":"plan"}}</plan>
-        <snapshot>35b935f3c303201054ffca568640dd4b</snapshot>
+        <snapshot>a895b907c333201054ffca568640dd64</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-25 10:43:32</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f0f6022ec303201054ffca568640dd31</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-29 06:58:09</sys_updated_on>
+        <sys_updated_on>2021-05-03 05:31:41</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1843,10 +1844,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-25 10:43:31</sys_created_on>
         <sys_id>94f6ceeac303201054ffca568640dd5a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-29 06:58:08</sys_updated_on>
+        <sys_updated_on>2021-05-03 05:31:40</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=94f6ceeac303201054ffca568640dd5a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1885,9 +1886,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-25 10:43:31</sys_created_on>
         <sys_id>a8f6ceeac303201054ffca568640ddaa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-29 06:58:08</sys_updated_on>
+        <sys_updated_on>2021-05-03 05:31:40</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var inputScope = inputs.flow_scope_sys_id;
     var newFlow = inputs.new_flow_sys_id;
@@ -1904,13 +1905,14 @@
    //Update the customer Type 
     sn_flow.FlowTemplates.updateFlowActions(newFlow,'2', 'customer_type', customerType);
   
-  //Update the caseType 
+  //Update the caseType
+ 
     sn_flow.FlowTemplates.updateFlowActions(newFlow,'2', 'case_type', caseType);
   
   //Update the isEscalated 
     sn_flow.FlowTemplates.updateFlowActions(newFlow,'2', 'is_escalated', isEscalated);
   
-  //Update the prior 
+  //Update the prior
     sn_flow.FlowTemplates.updateFlowActions(newFlow,'2', 'priority', prior);
   
     new global.FlowTemplatesHelper().activateConnection(connection);

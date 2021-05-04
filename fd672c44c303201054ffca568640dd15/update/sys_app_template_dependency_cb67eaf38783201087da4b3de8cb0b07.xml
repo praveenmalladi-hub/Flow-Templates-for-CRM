@@ -14,6 +14,6 @@
         <sys_update_name>sys_app_template_dependency_cb67eaf38783201087da4b3de8cb0b07</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-03-29 10:17:50</sys_updated_on>
-        <template display_value="Create a Microsoft Dynamics Case when a record is created">557f70008743201087da4b3de8cb0b13</template>
+        <template display_value="Create a Microsoft Dynamics Case when a case is created">557f70008743201087da4b3de8cb0b13</template>
     </sys_app_template_dependency>
 </record_update>

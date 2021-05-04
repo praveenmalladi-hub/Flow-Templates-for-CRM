@@ -15,6 +15,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-03-26 03:04:31</sys_updated_on>
         <table_name display_value="Flow" name="sys_hub_flow">59678859c3b6201054ffca568640dd0f</table_name>
-        <template display_value="Update a Microsoft Dynamics Case when a record is updated">21f5da2eeb0320109a720878f15228f9</template>
+        <template display_value="Update a Microsoft Dynamics Case when a case is updated">21f5da2eeb0320109a720878f15228f9</template>
     </sys_app_template_manifest>
 </record_update>

@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>create_opportunity_in_microsoft_dynamics_from_the_service_catalog</internal_name>
-        <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"a09efcf5-f6e6-437d-ac87-8b2a69a19a26.table_name","label":"4➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a09efcf5-f6e6-437d-ac87-8b2a69a19a26.record","label":"4➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ef5b3c2-56f6-45e8-8097-8dbd860b7e60.opportunity_id","label":"2➛Opportunity ID","reference_display":"Opportunity ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"1ef5b3c2-56f6-45e8-8097-8dbd860b7e60.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ef5b3c2-56f6-45e8-8097-8dbd860b7e60.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"36d23407-2c8d-4283-956b-affdb6da2218.record","label":"6➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36d23407-2c8d-4283-956b-affdb6da2218.table_name","label":"6➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"36d23407-2c8d-4283-956b-affdb6da2218.table_name","label":"6➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36d23407-2c8d-4283-956b-affdb6da2218.record","label":"6➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ef5b3c2-56f6-45e8-8097-8dbd860b7e60.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"1ef5b3c2-56f6-45e8-8097-8dbd860b7e60.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ef5b3c2-56f6-45e8-8097-8dbd860b7e60.opportunity_id","label":"2➛Opportunity ID","reference_display":"Opportunity ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"a09efcf5-f6e6-437d-ac87-8b2a69a19a26.record","label":"4➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a09efcf5-f6e6-437d-ac87-8b2a69a19a26.table_name","label":"4➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"flow_variable.name","label":"Flow Variables➛Name","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"3c61a552-3a8f-426d-a1fd-ecc29951529b"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Create Opportunity in Microsoft Dynamics from the Service Catalog</name>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aea7f988c303201054ffca568640ddfb</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Create Opportunity in Microsoft Dynamics from the Service Catalog</sys_name>
         <sys_overrides/>
         <sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_update_name>sys_hub_flow_aea7f988c303201054ffca568640ddfb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-06 12:34:07</sys_updated_on>
+        <sys_updated_on>2021-05-03 06:05:27</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=aea7f988c303201054ffca568640ddfb"/>
@@ -53,10 +53,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 16:23:15</sys_created_on>
         <sys_id>cbf74e40c303201054ffca568640dda7</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-06 12:34:06</sys_updated_on>
+        <sys_updated_on>2021-05-03 06:05:26</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -254,10 +254,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 16:23:15</sys_created_on>
         <sys_id>4bf74e40c303201054ffca568640ddac</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-06 12:34:06</sys_updated_on>
+        <sys_updated_on>2021-05-03 06:05:26</sys_updated_on>
         <ui_id>6cf4adc6-2460-48b1-876b-9c5eea5ec7a0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4bf74e40c303201054ffca568640ddac"/>
@@ -288,10 +288,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 16:28:29</sys_created_on>
         <sys_id>77290e80c303201054ffca568640dd93</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-06 12:34:06</sys_updated_on>
+        <sys_updated_on>2021-05-03 06:05:26</sys_updated_on>
         <ui_id>1ef5b3c2-56f6-45e8-8097-8dbd860b7e60</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=77290e80c303201054ffca568640dd93"/>
@@ -310,10 +310,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 16:32:07</sys_created_on>
         <sys_id>850a46c0c303201054ffca568640dd90</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-06 12:34:06</sys_updated_on>
+        <sys_updated_on>2021-05-03 06:05:27</sys_updated_on>
         <ui_id>36d23407-2c8d-4283-956b-affdb6da2218</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=850a46c0c303201054ffca568640dd90"/>
@@ -383,10 +383,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 16:30:26</sys_created_on>
         <sys_id>d4a942c0c303201054ffca568640dd06</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-06 12:34:06</sys_updated_on>
+        <sys_updated_on>2021-05-03 06:05:26</sys_updated_on>
         <ui_id>a09efcf5-f6e6-437d-ac87-8b2a69a19a26</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d4a942c0c303201054ffca568640dd06"/>
@@ -463,10 +463,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 16:32:07</sys_created_on>
         <sys_id>0d0a46c0c303201054ffca568640dd8a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-06 12:34:06</sys_updated_on>
+        <sys_updated_on>2021-05-03 06:05:27</sys_updated_on>
         <ui_id>f83acf76-035d-4192-8eda-1a3b4ad176c6</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -494,10 +494,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 16:30:25</sys_created_on>
         <sys_id>44a902c0c303201054ffca568640ddfd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-06 12:34:06</sys_updated_on>
+        <sys_updated_on>2021-05-03 06:05:26</sys_updated_on>
         <ui_id>d9124192-0c13-4800-a12c-0440c10129ca</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -542,6 +542,88 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_variable action="delete_multiple" query="model=aea7f988c303201054ffca568640ddfb^sys_idNOT IN45ff0ec2c333201054ffca568640dddc"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3c61a552-3a8f-426d-a1fd-ecc29951529b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Opportunity in Microsoft Dynamics from the Service Catalog">aea7f988c303201054ffca568640ddfb</model>
+        <model_id>aea7f988c303201054ffca568640ddfb</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_aea7f988c303201054ffca568640ddfb</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-30 04:53:00</sys_created_on>
+        <sys_id>45ff0ec2c333201054ffca568640dddc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Name</sys_name>
+        <sys_package display_value="CRM Flow Template" source="sn_crm_flow_temp">fd672c44c303201054ffca568640dd15</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_45ff0ec2c333201054ffca568640dddc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-30 04:53:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_aea7f988c303201054ffca568640ddfb^sys_idNOT IN03f74e40c303201054ffca568640dda5,07f74e40c303201054ffca568640dd9d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>

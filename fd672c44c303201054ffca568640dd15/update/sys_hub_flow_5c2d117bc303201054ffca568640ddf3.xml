@@ -12,7 +12,7 @@
         <description>The base subflow for Object Templates (sys_app_template where create_app is set to false).</description>
         <internal_name>object_template__create_a_microsoft_dynamics_case_from_the_service_catalog</internal_name>
         <label_cache>[{"name":"subflow.priority","label":"Input➛priority","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"145410e5-f698-435f-9f6f-39b0599f2227","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.is_escalated","label":"Input➛is_escalated","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6619cc83-e342-4ea7-9ab0-efd1fc6b1a91","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.case_type","label":"Input➛case_type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ae4a7ba7-e199-4306-89a7-d78e3164a1a2","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.customer_type","label":"Input➛customer_type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"76764753-88f5-4770-98a8-151610df98db","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.catalog_item","label":"Input➛catalog_item","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8b6cf575-d7cf-41ef-b76d-1996a5b61b1a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.ms_connection","label":"Input➛ms_connection","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"9a1b1cf6-b091-42be-aa36-e5572c4e4ad9","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.flow_run_with_roles","label":"Input➛flow_run_with_roles","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1c151264-bd7b-4830-8d92-d23a96f79224","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.flow_run_as","label":"Input➛flow_run_as","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"856ab58a-79ad-4d4b-9a29-ad127805f02b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.flow_protection","label":"Input➛flow_protection","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"11af71c2-59cd-472e-9b67-89042ed3fe4c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.flow_description","label":"Input➛flow_description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0bdaf9c0-3a14-4f7c-8208-febfb9e994c9","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.flow_scope_sys_id","label":"Input➛flow_scope_sys_id","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"04b2ad9f-e59b-4030-bd4a-13de7fa801b3","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.flow_name","label":"Input➛flow_name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c178a9c7-b753-4c49-b38f-c1c2a796f075","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"b8417d37-aa1f-4fdb-b937-ee704c652815.scoped_app_output","label":"1➛scoped_app_output","reference_display":"scoped_app_output","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"897e5d0f-975d-4ae0-85bf-103e5ab12129"}}]</label_cache>
-        <latest_snapshot>c74999e4c353201054ffca568640dd7c</latest_snapshot>
+        <latest_snapshot>53fa764ec373201054ffca568640ddda</latest_snapshot>
         <master_snapshot>4673ad7fc303201054ffca568640dd62</master_snapshot>
         <name>Object Template - Create a Microsoft Dynamics Case from the Service Catalog</name>
         <natlang/>
@@ -1126,10 +1126,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-29 05:20:50</sys_created_on>
         <sys_id>68736d7fc303201054ffca568640dd49</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-31 12:31:58</sys_updated_on>
+        <sys_updated_on>2021-04-30 08:01:02</sys_updated_on>
         <ui_id>814ab176-e327-4e65-af2e-07d921402bcc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=68736d7fc303201054ffca568640dd49"/>
@@ -1245,10 +1245,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-29 05:20:50</sys_created_on>
         <sys_id>ac736d7fc303201054ffca568640dd40</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-31 12:31:58</sys_updated_on>
+        <sys_updated_on>2021-04-30 08:01:02</sys_updated_on>
         <ui_id>b8417d37-aa1f-4fdb-b937-ee704c652815</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ac736d7fc303201054ffca568640dd40"/>
@@ -1615,7 +1615,7 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"b673ed7fc303201054ffca568640dd66","name":"plan"}}</plan>
         <plan_id display_value="Object Template - Create a Microsoft Dynamics Case from the Service Catalog">5c2d117bc303201054ffca568640ddf3</plan_id>
-        <snapshot>c74999e4c353201054ffca568640dd7c</snapshot>
+        <snapshot>53fa764ec373201054ffca568640ddda</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-29 05:21:00</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -2738,10 +2738,10 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=4673ad7fc303201054ffca568640dd62^sys_idNOT INa273ed7fc303201054ffca568640dd20,e673ed7fc303201054ffca568640dd16"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="">35b935f3c303201054ffca568640dd4b</action_type>
+        <action_type display_value="">5aaafe0ec373201054ffca568640ddee</action_type>
         <action_type_parent display_value="Update FT - Create Case in Microsoft Dynamics from the Service Catalog">2631062ac303201054ffca568640ddb9</action_type_parent>
         <comment/>
-        <compiled_snapshot>35b935f3c303201054ffca568640dd4b</compiled_snapshot>
+        <compiled_snapshot>5aaafe0ec373201054ffca568640ddee</compiled_snapshot>
         <display_text/>
         <flow display_value="Object Template - Create a Microsoft Dynamics Case from the Service Catalog">4673ad7fc303201054ffca568640dd62</flow>
         <order>2</order>
@@ -2750,10 +2750,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-29 05:20:59</sys_created_on>
         <sys_id>a273ed7fc303201054ffca568640dd20</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-31 12:31:58</sys_updated_on>
+        <sys_updated_on>2021-04-30 08:01:02</sys_updated_on>
         <ui_id>814ab176-e327-4e65-af2e-07d921402bcc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a273ed7fc303201054ffca568640dd20"/>
@@ -2771,10 +2771,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-29 05:20:59</sys_created_on>
         <sys_id>e673ed7fc303201054ffca568640dd16</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-31 12:31:58</sys_updated_on>
+        <sys_updated_on>2021-04-30 08:01:02</sys_updated_on>
         <ui_id>b8417d37-aa1f-4fdb-b937-ee704c652815</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e673ed7fc303201054ffca568640dd16"/>

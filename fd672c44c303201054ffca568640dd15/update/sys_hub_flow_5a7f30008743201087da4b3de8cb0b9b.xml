@@ -12,7 +12,7 @@
         <description>The base subflow for Object Templates (sys_app_template where create_app is set to false).</description>
         <internal_name>object_template__create_a_microsoft_dynamics_case_when_a_record_is_created</internal_name>
         <label_cache>[{"name":"subflow.priority","label":"Input➛priority","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"00259e56-805c-44ce-9c47-6ead37c9eebf","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.is_escalated","label":"Input➛is_escalated","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a6749cc3-802b-4ee4-89d3-2d7e788b47cd","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.case_type","label":"Input➛case_type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a86bba94-ef9d-40c3-972a-910ff0d1c5c0","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.customer_type","label":"Input➛customer_type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2442fa5c-bf1d-44ba-a8c6-5a533aacd016","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.connection","label":"Input➛connection","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8f23e13c-1287-4b6d-91dc-993281e3df66","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.trigger_table","label":"Input➛trigger_table","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be2fad99-1096-471a-a53e-9207a8e17eb2","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.flow_run_with_roles","label":"Input➛flow_run_with_roles","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"603062f7-ca0d-4247-9eb8-99cce15ea501","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.flow_run_as","label":"Input➛flow_run_as","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"da4576a4-d183-4e2c-91f6-796c8e390b00","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.flow_protection","label":"Input➛flow_protection","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"fed20150-0786-4296-8e5f-714e64d8346b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.flow_description","label":"Input➛flow_description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"9116a00a-a2f3-44bb-b3a9-f17cf313f2e0","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.flow_scope_sys_id","label":"Input➛flow_scope_sys_id","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"41d291d9-24b2-44cf-88c6-9bf4269862c6","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.flow_name","label":"Input➛flow_name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"f0d0f9b5-e7fa-40d8-b493-89930ad288ca","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"fa337e7d-4ee5-4366-9a87-36336444fd18.scoped_app_output","label":"1➛scoped_app_output","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"897e5d0f-975d-4ae0-85bf-103e5ab12129"}}]</label_cache>
-        <latest_snapshot>dfb1c5808743201087da4b3de8cb0b4d</latest_snapshot>
+        <latest_snapshot>e37a7a0ec373201054ffca568640dd7e</latest_snapshot>
         <master_snapshot>dfb1c5808743201087da4b3de8cb0b4d</master_snapshot>
         <name>Object Template - Create a Microsoft Dynamics Case when a record is created</name>
         <natlang/>
@@ -1036,7 +1036,7 @@
         <action_type display_value="FT Create a Microsoft Dynamics Case when a record is created">ec71d9808783201087da4b3de8cb0b4c</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>ec71d9808783201087da4b3de8cb0b4c</compiled_snapshot>
         <display_text/>
         <flow display_value="Object Template - Create a Microsoft Dynamics Case when a record is created">5a7f30008743201087da4b3de8cb0b9b</flow>
         <order>2</order>
@@ -1045,10 +1045,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 12:36:31</sys_created_on>
         <sys_id>711491448783201087da4b3de8cb0b5d</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-14 11:13:51</sys_updated_on>
+        <sys_updated_on>2021-04-30 07:58:52</sys_updated_on>
         <ui_id>d9846653-1392-4c31-bf22-1b97c2f8bf5d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=711491448783201087da4b3de8cb0b5d"/>
@@ -1164,10 +1164,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 11:16:20</sys_created_on>
         <sys_id>93b1c5808743201087da4b3de8cb0b29</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-14 11:13:51</sys_updated_on>
+        <sys_updated_on>2021-04-30 07:58:52</sys_updated_on>
         <ui_id>fa337e7d-4ee5-4366-9a87-36336444fd18</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=93b1c5808743201087da4b3de8cb0b29"/>
@@ -1509,9 +1509,9 @@
     </sys_documentation>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5a7f30008743201087da4b3de8cb0b9b^sys_idNOT IN77b109808743201087da4b3de8cb0b14"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@447d021b</plan>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"77b109808743201087da4b3de8cb0b14","name":"plan"}}</plan>
         <plan_id display_value="Object Template - Create a Microsoft Dynamics Case when a record is created">5a7f30008743201087da4b3de8cb0b9b</plan_id>
-        <snapshot>dfb1c5808743201087da4b3de8cb0b4d</snapshot>
+        <snapshot>e37a7a0ec373201054ffca568640dd7e</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 11:16:23</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -2634,11 +2634,10 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=dfb1c5808743201087da4b3de8cb0b4d^sys_idNOT IN4f6419448783201087da4b3de8cb0b6f,ffb109808743201087da4b3de8cb0b00"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="FT Create a Microsoft Dynamics Case when a record is created">ec71d9808783201087da4b3de8cb0b4c</action_type>
+        <action_type display_value="">dc3d85c5c323201054ffca568640dd4f</action_type>
         <action_type_parent display_value="FT Create a Microsoft Dynamics Case when a record is created">44cfc5408783201087da4b3de8cb0b88</action_type_parent>
         <comment/>
-        <compiled_snapshot>ec71d9808783201087da4b3de8cb0b4c</compiled_snapshot>
+        <compiled_snapshot>dc3d85c5c323201054ffca568640dd4f</compiled_snapshot>
         <display_text/>
         <flow display_value="Object Template - Create a Microsoft Dynamics Case when a record is created">dfb1c5808743201087da4b3de8cb0b4d</flow>
         <order>2</order>
@@ -2647,117 +2646,19 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 12:37:58</sys_created_on>
         <sys_id>4f6419448783201087da4b3de8cb0b6f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 12:37:58</sys_updated_on>
+        <sys_updated_on>2021-04-30 07:58:52</sys_updated_on>
         <ui_id>d9846653-1392-4c31-bf22-1b97c2f8bf5d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4f6419448783201087da4b3de8cb0b6f"/>
-    <sys_element_mapping action="delete_multiple" query="id=4f6419448783201087da4b3de8cb0b6f"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>case_type</field>
-        <id>4f6419448783201087da4b3de8cb0b6f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-17 12:37:58</sys_created_on>
-        <sys_id>c76419448783201087da4b3de8cb0b72</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 12:37:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ec71d9808783201087da4b3de8cb0b4c</table>
-        <value>{{subflow.case_type}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection</field>
-        <id>4f6419448783201087da4b3de8cb0b6f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-17 12:37:58</sys_created_on>
-        <sys_id>8b6419448783201087da4b3de8cb0b72</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 12:37:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ec71d9808783201087da4b3de8cb0b4c</table>
-        <value>{{subflow.connection}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>customer_type</field>
-        <id>4f6419448783201087da4b3de8cb0b6f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-17 12:37:58</sys_created_on>
-        <sys_id>0b6419448783201087da4b3de8cb0b71</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 12:37:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ec71d9808783201087da4b3de8cb0b4c</table>
-        <value>{{subflow.customer_type}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow_scope_sys_id</field>
-        <id>4f6419448783201087da4b3de8cb0b6f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-17 12:37:58</sys_created_on>
-        <sys_id>436419448783201087da4b3de8cb0b72</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 12:37:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ec71d9808783201087da4b3de8cb0b4c</table>
-        <value>{{subflow.flow_scope_sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>is_escalated</field>
-        <id>4f6419448783201087da4b3de8cb0b6f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-17 12:37:58</sys_created_on>
-        <sys_id>8f6419448783201087da4b3de8cb0b71</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 12:37:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ec71d9808783201087da4b3de8cb0b4c</table>
-        <value>{{subflow.is_escalated}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>new_flow_sys_id</field>
-        <id>4f6419448783201087da4b3de8cb0b6f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-17 12:37:58</sys_created_on>
-        <sys_id>076419448783201087da4b3de8cb0b72</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 12:37:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ec71d9808783201087da4b3de8cb0b4c</table>
-        <value>{{fa337e7d-4ee5-4366-9a87-36336444fd18.scoped_app_output}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>priority</field>
-        <id>4f6419448783201087da4b3de8cb0b6f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-17 12:37:58</sys_created_on>
-        <sys_id>4f6419448783201087da4b3de8cb0b72</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 12:37:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ec71d9808783201087da4b3de8cb0b4c</table>
-        <value>{{subflow.priority}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>trigger_table</field>
-        <id>4f6419448783201087da4b3de8cb0b6f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-17 12:37:58</sys_created_on>
-        <sys_id>cb6419448783201087da4b3de8cb0b71</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 12:37:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ec71d9808783201087da4b3de8cb0b4c</table>
-        <value>{{subflow.trigger_table}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Copy Flow using Template">c974eac6ff12101088e94ee9453bf11e</action_type>
+        <action_type display_value="">1ca5fcc2c332201054ffca568640dd6a</action_type>
         <action_type_parent display_value="Copy Flow using Template">b7c3e2c6ff12101088e94ee9453bf148</action_type_parent>
         <comment/>
-        <compiled_snapshot>c974eac6ff12101088e94ee9453bf11e</compiled_snapshot>
+        <compiled_snapshot>1ca5fcc2c332201054ffca568640dd6a</compiled_snapshot>
         <display_text/>
         <flow display_value="Object Template - Create a Microsoft Dynamics Case when a record is created">dfb1c5808743201087da4b3de8cb0b4d</flow>
         <order>1</order>
@@ -2766,26 +2667,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 11:16:22</sys_created_on>
         <sys_id>ffb109808743201087da4b3de8cb0b00</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="CRM Flow Template">fd672c44c303201054ffca568640dd15</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 12:37:58</sys_updated_on>
+        <sys_updated_on>2021-04-30 07:58:52</sys_updated_on>
         <ui_id>fa337e7d-4ee5-4366-9a87-36336444fd18</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ffb109808743201087da4b3de8cb0b00"/>
-    <sys_element_mapping action="delete_multiple" query="id=ffb109808743201087da4b3de8cb0b00"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>scoped_app_input</field>
-        <id>ffb109808743201087da4b3de8cb0b00</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-17 11:32:27</sys_created_on>
-        <sys_id>db6501448743201087da4b3de8cb0ba3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 11:32:27</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c974eac6ff12101088e94ee9453bf11e</table>
-        <value>{"new_flow_name":"{{subflow.flow_name}}","flow_sys_id":"8c5481048743201087da4b3de8cb0b30","scope_sys_id":"{{subflow.flow_scope_sys_id}}","description":"{{subflow.flow_description}}","protection":"{{subflow.flow_protection}}","run_as":"{{subflow.flow_run_as}}","run_with_roles":"{{subflow.flow_run_with_roles}}"}</value>
-    </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=dfb1c5808743201087da4b3de8cb0b4d^sys_idNOT IN036419448783201087da4b3de8cb0b80"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">a664d5448783201087da4b3de8cb0ba6</block>
